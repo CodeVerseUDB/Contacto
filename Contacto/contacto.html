@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CodeVerse-Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
+</head>
+<body>
+<center>
+	<header>
+		<div class="logo">CodeVerse</div>
+			<nav>
+				<ul>
+					<li><a href="https://codeverseudb.github.io/Home/">Inicio</a></li>
+					<li><a href="https://codeverseudb.github.io/servicios/">Servicios</a></li>
+					<li><a href="https://codeverseudb.github.io/Contacto/">Contacto</a></li>
+					<li><a href="https://codeverseudb.github.io/Quienes-somos/">Quiénes somos</a></li>
+				</ul>
+			</nav>
+	</header>
+	<section>
+		<article>
+			<form action="index.html" method="post">
+				<h4>¡Te interesa aprender un lenguaje de programación!</h4>
+				<fieldset>
+					<legend><span class="numero">1 </span>Identificación</legend>
+					<label>Nombre:</label>
+					<input type="text" id="nombre" name="nombre">
+					<br>
+					<br>
+					<label>Email:</label>
+					<input type="email" id="email" name="email">
+					<br>
+					<br>
+					<label>País de domicilio:</label>
+					<input type="text" id="país" name="pais">
+					<br>
+					<br>
+					<label>Sexo</label>	
+					<input type="radio" id="masculino" value="masculino" name="masculino">
+					<label class="light">Masculino</label>
+					<input type="radio" id="femenino" value="femenino" name="femenino">
+					<label class="light">Femenino</label>
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend><span class="numero">2 </span>Interés</legend>
+					<label>Lenguaje de interés:</label>
+					<select id="interés" name="interés">
+						<optgroup label="Lenguaje">
+							<option value="C++">"C++"</option>
+							<option value="Phyton">"Phyton"</option>
+							<option value="Java">"Java"</option>
+							<option value="PHP">"PHP"</option>
+							<option value="Visual Basic">"Visual Basic"</option>
+							<option value="Swift">"Swift"</option>
+						</optgroup>
+					</select>
+					<br>
+					<br>
+					<label>Aprendizaje:</label>
+					<input type="checkbox" value="Virtual" name="Aprendizaje"> <label class="Virtual">Virtual</label>
+					<input type="checkbox" value="Presencial" name="Aprendizaje"> <label class="Presencial">Presencial</label>
+				</fieldset>
+				<button type="submit" style="cursor: pointer;">Registrate</button>
+			</form>
+		</article>
+	</section>
+	<footer><center><h3>Todos los derechos reservados</h3></center></footer>
+</center>
+</body>
+</html>
